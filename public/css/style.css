@@ -1,0 +1,39 @@
+body{
+    margin:5px;
+    padding: 0px;
+    background-color:antiquewhite;
+}
+header{
+    border: 1px red solid;
+    justify-content: center;
+    /* width: 700PX; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+aside{
+    border: 1px yellow solid;
+    /* text-align: center; */
+    width:100px;
+    height:300px;
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+
+main{
+    border: 2px green solid;
+}
+.sec1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    border:1px blue solid;
+}
+.divsec{
+    border: 3px red dotted;
+    float: left;
+}
